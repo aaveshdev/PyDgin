@@ -9,9 +9,9 @@ extern "C" {
 typedef struct PyCodeObject PyCodeObject;
 
 #ifndef Py_LIMITED_API
-#  define Py_CPYTHON_CODE_H
-#  include  "cpython/code.h"
-#  undef Py_CPYTHON_CODE_H
+#define Py_CPYTHON_CODE_H
+#include  "cpython/code.h"
+#undef Py_CPYTHON_CODE_H
 #endif
 
 #ifdef __cplusplus
