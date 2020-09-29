@@ -1,57 +1,6 @@
-This is Python version 3.10.0 alpha 0
+This is PyDgin version 3.10.0 alpha 0
 =====================================
 
-.. image:: https://travis-ci.com/python/cpython.svg?branch=master
-   :alt: CPython build status on Travis CI
-   :target: https://travis-ci.com/python/cpython
-
-.. image:: https://github.com/python/cpython/workflows/Tests/badge.svg
-   :alt: CPython build status on GitHub Actions
-   :target: https://github.com/python/cpython/actions
-
-.. image:: https://dev.azure.com/python/cpython/_apis/build/status/Azure%20Pipelines%20CI?branchName=master
-   :alt: CPython build status on Azure DevOps
-   :target: https://dev.azure.com/python/cpython/_build/latest?definitionId=4&branchName=master
-
-.. image:: https://codecov.io/gh/python/cpython/branch/master/graph/badge.svg
-   :alt: CPython code coverage on Codecov
-   :target: https://codecov.io/gh/python/cpython
-
-.. image:: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
-   :alt: Python Zulip chat
-   :target: https://python.zulipchat.com
-
-
-Copyright (c) 2001-2020 Python Software Foundation.  All rights reserved.
-
-See the end of this file for further copyright and license information.
-
-.. contents::
-
-General Information
--------------------
-
-- Website: https://www.python.org
-- Source code: https://github.com/python/cpython
-- Issue tracker: https://bugs.python.org
-- Documentation: https://docs.python.org
-- Developer's Guide: https://devguide.python.org/
-
-Contributing to CPython
------------------------
-
-For more complete instructions on contributing to CPython development,
-see the `Developer Guide`_.
-
-.. _Developer Guide: https://devguide.python.org/
-
-Using Python
-------------
-
-Installable Python kits, and information about using Python, are available at
-`python.org`_.
-
-.. _python.org: https://www.python.org/
 
 Build Instructions
 ------------------
@@ -79,10 +28,10 @@ dependencies for various Linux distributions and macOS.
 
 On macOS, there are additional configure and build options related
 to macOS framework and universal builds.  Refer to `Mac/README.rst
-<https://github.com/python/cpython/blob/master/Mac/README.rst>`_.
+<https://github.com/aaveshdev/PyDgin/blob/master/Mac/README.rst>`_.
 
 On Windows, see `PCbuild/readme.txt
-<https://github.com/python/cpython/blob/master/PCbuild/readme.txt>`_.
+<https://github.com/aaveshdev/PyDgin/blob/master/PCbuild/readme.txt>`_.
 
 If you wish, you can create a subdirectory and invoke configure from there.
 For example::
@@ -137,44 +86,6 @@ arbitrary ``.o`` file boundary when building final executables or shared
 libraries for additional performance gains.
 
 
-What's New
-----------
-
-We have a comprehensive overview of the changes in the `What's New in Python
-3.10 <https://docs.python.org/3.10/whatsnew/3.10.html>`_ document.  For a more
-detailed change log, read `Misc/NEWS
-<https://github.com/python/cpython/blob/master/Misc/NEWS.d>`_, but a full
-accounting of changes can only be gleaned from the `commit history
-<https://github.com/python/cpython/commits/master>`_.
-
-If you want to install multiple versions of Python, see the section below
-entitled "Installing multiple versions".
-
-
-Documentation
--------------
-
-`Documentation for Python 3.10 <https://docs.python.org/3.10/>`_ is online,
-updated daily.
-
-It can also be downloaded in many formats for faster access.  The documentation
-is downloadable in HTML, PDF, and reStructuredText formats; the latter version
-is primarily for documentation authors, translators, and people with special
-formatting requirements.
-
-For information about building Python's documentation, refer to `Doc/README.rst
-<https://github.com/python/cpython/blob/master/Doc/README.rst>`_.
-
-
-Converting From Python 2.x to 3.x
----------------------------------
-
-Significant backward incompatible changes were made for the release of Python
-3.0, which may cause programs written for Python 2 to fail when run with Python
-3.  For more information about porting your code from Python 2 to Python 3, see
-the `Porting HOWTO <https://docs.python.org/3/howto/pyporting.html>`_.
-
-
 Testing
 -------
 
@@ -227,24 +138,6 @@ GitHub <https://github.com/python/cpython>`_.
 
 You can also follow development discussion on the `python-dev mailing list
 <https://mail.python.org/mailman/listinfo/python-dev/>`_.
-
-
-Proposals for enhancement
--------------------------
-
-If you have a proposal to change Python, you may want to send an email to the
-comp.lang.python or `python-ideas`_ mailing lists for initial feedback.  A
-Python Enhancement Proposal (PEP) may be submitted if your idea gains ground.
-All current PEPs, as well as guidelines for submitting a new PEP, are listed at
-`python.org/dev/peps/ <https://www.python.org/dev/peps/>`_.
-
-.. _python-ideas: https://mail.python.org/mailman/listinfo/python-ideas/
-
-
-Release Schedule
-----------------
-
-See :pep:`596` for Python 3.9 release details.
 
 
 Copyright and License Information
